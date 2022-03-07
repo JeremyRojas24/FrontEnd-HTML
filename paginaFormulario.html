@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantar Pedido</title>
+</head>
+<body>
+    <h1>✨ Azúcar, flores y muchos colores... ✨</h1>    
+
+    <form action="pedido.js">
+        <label for="Nombre">Tu nombre aquí 😻</label><br>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Pedido a nombre de..."> 
+
+        <br><br>
+
+        <label for="telefono">Déjanos tu teléfono para estar en contacto 📲💖</label><br>
+        <input type="number" name="telefono" id="telefono" placeholder="Tu cel/tel">
+
+        <br><br>
+
+        <label for="email">Tu correo eléctronido para avisarte cuando esté listo tu pedido 💌</label><br>
+        <input type="email" name="email" id="email" placeholder="Tu email">
+
+        <br>
+
+        <p>Ordena el pastel de tus sueños (puedes combinar algunos sabores) 🎂💭</p>
+        <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+        <label for="chocolate">Chocolate 🍫</label>
+        <input type="text" id="chocolateCuantos" name="chocolateCuantos" placeholder="¿Entero o combinado?"><br>
+        <input type="checkbox" id="fresa" name="fresa" value="fresa">
+        <label for="fresa">Fresa 🍓</label>
+        <input type="text" id="fresaCuantos" name="fresaCuantos" placeholder="¿Entero o combinado?"><br>
+        <input type="checkbox" id="cafe" name="cafe" value="cafe">
+        <label for="cafe">Café ☕️</label>
+        <input type="text" id="cafeCuantos" name="cafeCuantos" placeholder="¿Entero o combinado?"><br> 
+        <input type="checkbox" id="tresLeches" name="tresLeches" value="tresLeches">
+        <label for="tresLeches">Tres Leches 🥛</label>
+        <input type="text" id="tresLechesCuantos" name="tresLechesCuantos" placeholder="¿Entero o combinado?"><br>  
+        <input type="checkbox" id="cheesecakeFresas" name="cheesecakeFresas" value="cheesecakeFresas">
+        <label for="cheesecakeFresas">Cheesecake de Fresas 🍰</label>
+        <input type="text" id="cheescakeFresasCuantos" name="cheescakeFresasCuantos" placeholder="¿Entero o combinado?"><br> 
+        <input type="checkbox" id="napolitano" name="napolitano" value="napolitano">
+        <label for="napolitano">Napolitano 🌈</label>
+        <input type="text" id="napolitanoCuantos" name="napolitanoCuantos" placeholder="¿Entero o combinado?"><br> 
+        <input type="checkbox" id="limon" name="limon" value="limon">
+        <label for="limon">Pay de Limón 🍋</label>
+        <input type="number" id="limonCuantos" name="limonCuantos" placeholder="¿Cuántos (no combinar)?"><br> 
+        <input type="checkbox" id="flan" name="flan" value="flan">
+        <label for="flan">Flan napolitano 🍮</label>
+        <input type="number" id="flanCuantos" name="flanCuantos" placeholder="¿Cuántos (no combinar)?"><br>      
+
+
+        <p>Los detalles son importantes, agrega cuantas sonrisas extras quieras generar ☺️</p>
+        <input type="checkbox" id="tradicionales" name="tradicionales" value="tradicionales">
+        <label for="tradicionales">Velas tradicionales</label>
+        <input type="number" id="tradicionalesCuantos" name="tradcionalesCuantos" placeholder="¿Cuántas?"><br>
+        <input type="checkbox" id="numeros" name="numeros" value="numeros">
+        <label for="numeros">Velas de números</label>
+        <input type="text" id="numerosCuantos" name="numerosCuantos" placeholder="¿Cuántas y cuáles?"><br>
+        <input type="checkbox" id="letras" name="letras" value="letras">
+        <label for="letras">Velas de letras</label>
+        <input type="text" id="letrasCuantos" name="letrasCuantos" placeholder="¿Cuántas y cuáles?"><br>
+        <input type="checkbox" id="bengalas" name="bengalas" value="bengalas">
+        <label for="bengalas">Velas de bengala</label>
+        <input type="number" id="bengalasCuantos" name="bengalasCuantos" placeholder="¿Cuántas?"><br>
+        <input type="checkbox" id="magicas" name="magicas" value="magicas">
+        <label for="magicas">Velas mágicas</label>
+        <input type="number" id="magicasCuantos" name="magicasCuantos" placeholder="¿Cuántas?"><br>
+        <input type="checkbox" id="led" name="led" value="led">
+        <label for="led">Velas LED</label>
+        <input type="number" id="ledCuantos" name="ledCuantos" placeholder="¿Cuántas?"><br>
+        <input type="checkbox" id="giratorias" name="giratorias" value="giratorias">
+        <label for="giratorias">Velas giratorias musicales</label>
+        <input type="number" id="giratoriasCuantos" name="giratoriasCuantos" placeholder="¿Cuántas?"><br>
+        <input type="checkbox" id="felizCumple" name="felizCumple" value="felizCumple">
+        <label for="felizCumple">Mensaje: FELIZ CUMPLEAÑOS</label><br>
+        <input type="checkbox" id="teAmo" name="teAmo" value="teAmo">
+        <label for="teAmo">Mensaje: TE AMO</label><br>
+        <input type="checkbox" id="mensaje" name="mensaje" value="mensaje">
+        <label for="mensaje">Mensaje personalizado</label>
+        <input type="text" id="mensajeCuantos" name="mensajeCuantos" placeholder="¿Cuál?"><br>
+        <input type="checkbox" id="caritaFeliz" name="caritaFeliz" value="caritaFeliz">
+        <label for="caritaFeliz">Dibujo: Carita feliz</label><br>
+        <input type="checkbox" id="corazones" name="corazones" value="corazones">
+        <label for="corazones">Dibujo: Corazones</label><br>
+        <input type="checkbox" id="dibuji" name="dibujo" value="dibujo">
+        <label for="dibujo">Dibujo personalizado</label>
+        <input type="text" id="dibujoCuantos" name="dibujoCuantos" placeholder="¿Cuál?"><br>
+
+        <br><br>
+        <input type="reset" value="Quiero esoger algo distinto 🤔">
+        <input type="submit" value="¡Vamos allá! 😎">
+        <br><br>
+    </form>
+
+</body>
+</html>
